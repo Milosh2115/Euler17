@@ -65,6 +65,10 @@ public class Euler17 {
             charnum_10_19 = 6;
         } else if (first_num == 3) {
             charnum_10_19 = 8;
+        } else if (first_num == 5) {
+            charnum_10_19 = 7;
+        } else if (first_num == 8) {
+            charnum_10_19 = 8;
         } else {
             charnum_10_19 = charnumber_1_9(first_num) + cht;
         }
@@ -72,6 +76,7 @@ public class Euler17 {
     }
     public static int charnumber_20_90(int second_num) {
         int charnum_20_90 = 0;
+        int ty = 2;
         if (second_num == 0) {
             charnum_20_90 = 0;
         } else if (second_num == 2) {
@@ -82,15 +87,11 @@ public class Euler17 {
             charnum_20_90 = 5;
         } else if (second_num == 5) {
             charnum_20_90 = 5;
-        } else if (second_num == 6) {
-            charnum_20_90 = 5;
-        } else if (second_num == 7) {
-            charnum_20_90 = 7;
         } else if (second_num == 8) {
             charnum_20_90 = 6;
-        } else if (second_num == 9) {
-            charnum_20_90 = 6;
-        } 
+        } else {
+           charnum_20_90 = charnumber_1_9(second_num) + ty; 
+        }
         return charnum_20_90;
     }
     public static int givedouble(int first_num, int second_num) {
