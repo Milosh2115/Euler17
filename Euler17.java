@@ -4,9 +4,6 @@
 //Therefore the usage is not British.
 
 import java.util.Scanner;
-import java.io.*;
-import java.lang.*;
-import java.util.*;
 import java.lang.String;
 
 public class Euler17 {
